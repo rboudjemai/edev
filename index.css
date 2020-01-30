@@ -1,0 +1,90 @@
+html{
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+p{
+    width: 50%;
+    margin: 0 auto 0.5% auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 21px;
+
+}
+
+h1{
+    text-align: center;
+    width: 65%;
+    margin: 5% auto 2% auto;
+    font-weight: 300;
+    font-size: 80px;
+}
+h2{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto 2% auto;
+    font-weight: 200;
+    font-size: 60px;
+}
+h3{
+    text-align: center;
+    width: 55%;
+    margin: 0 auto 2% auto;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.bouton_imp {
+    width: 300px;
+    height: 50px;
+    margin: 3% auto 1% auto;
+    background: #3A3ADE;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 12px 40px black;
+}
+
+.bouton_imp a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bouton_imp:hover {
+    background: #6878D0;
+}
+
+.bouton_not_imp{
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    background: rgb(226, 152, 79);
+    border-radius: 40px;
+    border: none;
+}
+.bouton_not_imp a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bouton_not_imp:hover {
+    background: rgb(255, 191, 127);
+}
+.bouton_not_imp a:hover{
+    color: white;
+}
+@media (max-width: 720px){
+  h1{font-size: 24px;}
+  p{font-size: 13px;}
+}

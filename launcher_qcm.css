@@ -1,0 +1,60 @@
+main{
+    width: 75%;
+    margin: 3% auto 0 auto;
+    padding: 20px 30px 20px 30px;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    margin: 5% auto 2% auto;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+}
+
+.center{
+    width: 180px;
+    margin: 60px auto 50px auto;
+}
+.center a{
+    padding: 19px 20px 20px 20px;
+}
+
+/* Formulaire */
+
+.formulaire{
+    width: 60%;
+    margin: 5% auto auto auto;
+
+    background: rgba(104, 120, 208, 0.801);
+    box-shadow: 0 12px 40px black; 
+
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+}
+.formulaire form input{
+    width: 50%;
+    height: 4vh;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.formulaire form input:nth-of-type(1){
+    margin: 2% auto 5% auto;
+}
+.formulaire form input:nth-last-of-type(1){
+    margin: 2% auto 5% auto;
+}
+
+.formulaire label{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 500;
+    color: white;
+}

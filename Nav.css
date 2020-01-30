@@ -1,0 +1,156 @@
+body{
+    margin: 0 auto;
+    background-image: url(Img/fond-site.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menuhamburger{
+  width: 45px;
+  display: none;
+}
+
+.main_property{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 75%;
+    margin: 3% auto 0 auto;
+    padding: 20px 30px 20px 30px;
+}
+
+.header{
+    display: flex;
+    height: 60px;
+    background-color: #6878D0;
+    justify-content: space-between;
+}
+.logo {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/* Barre de navigation */
+.dropdownmenu {
+    position: relative;
+    display: inline-block;
+
+    margin-top: 8px;
+}
+.dropdown-child {
+    display: none;
+    height: fixed;
+    padding: 10px 0 10px 10px;
+}
+.dropdown-parent {
+    height: 60px;
+}
+.dropdown:hover .dropdown-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownmenu ul{
+	list-style:none;
+	position:relative;
+	float:left;
+    margin: 0 10px 0 0;
+}
+.dropdownmenu ul li{
+    list-style: none;
+    position:relative;
+	float:left;
+    background-color: #5663AC;
+}
+.dropdownmenu ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding : 13px 30px 13px 30px;
+    color:  white;
+    -webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li a:hover{
+    background: rgb(60, 71, 138);
+    color: white;
+}
+
+.child{
+    width: 40px;
+}
+
+.child:hover {
+    background: rgb(60, 71, 138);
+    color: white;
+    width: 60px;
+}
+
+.admission {
+    background-color: #3A3ADE;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+/* Boutons */
+
+.bouton_bleu{
+    width: 160px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    padding: 20px 20px 10px 20px;
+    margin: 4% 0 8% 0;
+    background: #3A3ADE;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 12px 40px black;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.bouton_bleu:hover {
+    background: #6878D0;
+}
+
+/* petit bouton */
+
+.small_bouton_bleu{
+    width: 160px;
+    font-size: 17px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    padding: 10px 20px 10px 20px;
+    margin: 4% auto 8% auto;
+    background: #3A3ADE;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 12px 40px black;
+}
+
+.small_bouton_bleu:hover {
+    background: #6878D0;
+}
+@media screen and (max-width: 720px){
+  .dropdownmenu ul{
+  	display: none;
+  }
+  .menuhamburger{
+    display: block;
+    margin-right: 15px;
+  }
+}

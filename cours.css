@@ -1,0 +1,121 @@
+h1{
+    text-align: center;
+    width: 65%;
+    margin: 2% auto 2% auto;
+    font-weight: 300;
+    font-size: 40px;
+    color: #6878D0;
+}
+
+h2{
+    text-align: center;
+    margin: 0 auto 0 auto;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+p{
+    padding: 0 30px 0 30px;
+    font-size: 15px;
+}
+
+.img_exemple{
+    width: 70%;
+    margin: 40px auto 40px auto;
+}
+.img_exemple img{
+    width: 100%;
+}
+
+.bleu{
+    color: rgb(67, 81, 160);
+}
+
+.important{
+    font-weight: 700;
+    color: rgb(45, 45, 175);
+}
+.balise{
+    font-weight: 700;
+    color: rgb(175, 45, 121);
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #6878D0;
+    padding-top: 15px;
+    margin: 30px 0 30px 0;
+}
+
+.tableau{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+}
+.tableau p{
+    padding: 15px;
+    width: 40%;
+    text-align: justify;
+}
+
+
+.note{
+    width: 40%;
+    border-radius: 5% / 60%;
+    background-color: rgba(104, 120, 208, 0.6) ;
+    margin: 0 auto 20px auto;
+}
+.note p{
+    font-size: 13px;
+    font-style: italic;
+    margin: 0;
+    padding: 3%;
+    text-align: center;
+    color: white;
+}
+
+em{
+    font-weight: 600;
+}
+
+
+
+/* Lien vers des cours extérieurs */
+
+.emplacement_boutons{
+    display: flex;
+    justify-content: space-around;
+    margin: 45px auto 30px auto;
+    width: 70%;
+}
+
+article a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.bouton_lien_cours{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(104, 120, 208, 0.6);
+    box-shadow: 1px 10px 30px rgba(0, 0, 0, 0.301);
+    width: 250px;
+    padding: 5px 0 10px 0;
+    border-radius: 50% 20% / 10% 40%;
+}
+.bouton_lien_cours:hover{
+    background-color: rgba(137, 150, 230, 0.6);
+}
+.bouton_lien_cours p{
+    width: 120px;
+    padding: 0;
+}
+.lien_cours{
+    height: 70px;
+    margin: 0 10% 0 10%;
+}

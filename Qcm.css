@@ -1,0 +1,38 @@
+main{
+  background-color: White;
+  width: 75%;
+  margin: 3% auto 0 auto;
+  height: auto;
+  padding: 20px 30px 20px 30px
+}
+H1,H2{
+  text-align: center;
+  font-weight: 300;
+}
+.bouton_imp {
+  width: 150px;
+  height: 50px;
+  margin: 3% 3% 1% 0;
+  background: #46A74A;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 4px 6px 30px 10px rgba(20, 41, 20, 0.26);
+}
+
+.bouton_imp a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bouton_imp:hover {
+  background: rgb(89, 185, 92);
+}
+
+.coller_droite{
+  width: 100%;
+  display : flex;
+  justify-content: flex-end;
+}

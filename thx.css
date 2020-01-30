@@ -1,0 +1,41 @@
+h1, h2{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 15%;
+    font-weight: 300;
+}
+h2{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bouton_imp {
+    width: 150px;
+    height: 50px;
+    background: #3A3ADE;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 12px 40px black;
+  }
+
+  .bouton_imp a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .bouton_imp:hover {
+    background: #6878D0;
+  }
